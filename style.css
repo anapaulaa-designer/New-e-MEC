@@ -29,21 +29,19 @@
         .topo-emec a {  }
 
         .caixa-logo-emec {  }
+
             .logo-emec {    }
 
-        .consultar-cadastro {   }
+        .menu-emec {   }
+
             .icone-cadastro { }
 
-        .perguntas-frequentes { }
             .icone-perguntas-frequentes {   }
 
-        .documentos-apoio { }
             .icones-documentos-apoio { }
 
-        .incricao-basis { }
             .icone-incricao-basis { }
 
-        .regulacao-avaliacao {    }
             .icone-regulacao-avaliacao {    }
 
     
@@ -58,11 +56,33 @@
         .class-secao-introdutoria p {   }
 
 
-/* PÁGINA DE FILTRAGEM DA CONSULTA */
+/* SEÇÃO MAIN DA CONSULTA */
 
-    .filtragem-consulta {  }
+    .main-consulta {   }
 
-        div .fundo-azul {   }
+    /* NAV DE CONSULTAS  */
 
-        
+        .nav-consultas {   }
+
+            .navegacao-flutuante {  }
+
+            .consultas {    }
+
+                .icone-consulta-avancada {  }
+                
+                .icone-consulta-textual {   }
+
+                .icone-ies {    }
+
+    /* FILTROS */
+
+    .filtros {  }
+
+        .inputs {   }
+
+            .inputs label { }
+            
+            .inputs input {  }
+
+
 
