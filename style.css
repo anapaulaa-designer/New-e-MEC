@@ -1,0 +1,68 @@
+/* ALTERAÇÕES GLOBAIS */
+
+    * { margin: 0;
+    padding: 0;
+    font-family: montserrat; }
+
+    a { text-decoration: none; }
+
+
+/* PRIMEIRA BARRA DE NAVEGAÇÃO GOV */
+
+    .topo-gov { }
+
+            .bandeira-gov { }
+
+        .topo-gov ul {  }
+
+        .topo-gov li {  }
+
+        .topo-gov a {   }
+
+        .topo-gov nav { }
+
+
+/* SEGUNDA BARRA DE NAVEGAÇAO E-MEC */
+
+    .topo-emec {    }
+
+        .topo-emec a {  }
+
+        .caixa-logo-emec {  }
+            .logo-emec {    }
+
+        .consultar-cadastro {   }
+            .icone-cadastro { }
+
+        .perguntas-frequentes { }
+            .icone-perguntas-frequentes {   }
+
+        .documentos-apoio { }
+            .icones-documentos-apoio { }
+
+        .incricao-basis { }
+            .icone-incricao-basis { }
+
+        .regulacao-avaliacao {    }
+            .icone-regulacao-avaliacao {    }
+
+    
+/* SEÇÃO INTRODUTÓRIA INFORMATIVA */
+
+    .class-secao-introdutoria { }
+
+        .class-secao-introdutoria h1 {  }
+
+        .class-secao-introdutoria h2 {  }
+
+        .class-secao-introdutoria p {   }
+
+
+/* PÁGINA DE FILTRAGEM DA CONSULTA */
+
+    .filtragem-consulta {  }
+
+        div .fundo-azul {   }
+
+        
+
