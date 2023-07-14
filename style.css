@@ -76,13 +76,36 @@
 
     /* FILTROS */
 
-    .filtros {  }
+    .filtros { background: rgb(230, 230, 230);
+        border-radius: 4px;
+        padding: 10px; }
 
-        .inputs {   }
+        .inputs { display: flex;
+        padding: 10px }
 
-            .inputs label { }
+            .inputs label { padding: 10px; }
             
-            .inputs input {  }
+            .inputs input { padding: 10px; }
+
+            .inputs p { padding: 10px; }
+        
+        button { background: rgb(12, 133, 239);
+        border-radius: 50px;
+        padding: 4px 60px;
+        border: 0;
+        color: aliceblue;        
+        }
+
+
+/* RODAPÉ */
+
+    .footer { background: rgb(184, 184, 184);
+    padding: 10px;}
+            
+        .footer p { }
+
+        .footer a { }
+
 
 
 
