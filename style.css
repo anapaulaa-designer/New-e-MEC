@@ -6,6 +6,10 @@
 
     a { text-decoration: none; }
 
+    h4 { font-size: 14px;}
+
+    p { font-size: 14px;}
+
 
 /* PRIMEIRA BARRA DE NAVEGAÇÃO GOV */
 
@@ -77,18 +81,26 @@
     /* FILTROS */
 
     .filtros { background: rgb(230, 230, 230);
-        border-radius: 4px;
-        padding: 10px; }
+    border-radius: 4px;
+    padding: 10px; 
+    display: inline-block;
+    }
 
         .inputs { display: flex;
-        padding: 10px }
+        padding: 10px 0;
+        align-items: center;}
 
-            .inputs label { padding: 10px; }
+            .inputs label { padding: 10px 10px 10px 0; }
             
             .inputs input { padding: 10px; }
 
-            .inputs p { padding: 10px; }
-        
+            .inputs p { padding: 10px; font: initial; font-family: montserrat; font-size: 14px;}
+
+            .inputs select { padding: 10px; margin: 0 10px 0 0;}
+            
+            
+
+
         button { background: rgb(12, 133, 239);
         border-radius: 50px;
         padding: 4px 60px;

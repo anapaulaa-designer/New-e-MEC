@@ -108,11 +108,11 @@
 
             <h4 class="inputs">
                 <label for="toogle">Buscar por</label>
-                <input type="radio" id="toogle" name="tipo de busca">
+                <input type="radio" id="toogle" name="ensino superior">
                 <p>Instituição de Ensino Superior</p>
-                <input type="radio" id="toogle" name="tipo de busca">
+                <input type="radio" id="toogle" name="graduacao">
                 <p>Curso de Graduação</p>
-                <input type="radio" id="toogle" name="tipo de busca">
+                <input type="radio" id="toogle" name="especializacao">
                 <p>Curso de Especialização</p>
             </h4>
 
@@ -135,6 +135,79 @@
                 </select>
             </h4>
 
+            <h4 class="inputs">
+                <label for="municipio">Município:</label>
+                <select name="municipio" id="municipio">
+                    <option value="Selecione">Selecione</option>
+                </select>
+
+            </h4>
+
+            <h4 class="inputs">
+                <label for="categoria">Categoria Administrativa:</label>
+                <input type="checkbox" id="categoria" name="municipal">
+                <p>Pública municipal</p>
+                <input type="checkbox" id="categoria" name="federal">
+                <p>Pública federal</p>
+                <input type="checkbox" id="categoria" name="estadual">
+                <p>Pública estadual</p>
+                <input type="checkbox" id="categoria" name="privada sem lucro">
+                <p>Privada sem fins lucrativos</p>
+                <input type="checkbox" id="categoria" name="provada com lucro">
+                <p>Privada com fins lucrativos</p>
+                <input type="checkbox" id="categoria" name="especial">
+                <p>Especial</p>
+            </h4>
+
+            <h4 class="inputs">
+                <label for="organizacao">Organização Acadêmica:</label>
+                <input type="checkbox" id="organizacao" name="faculdade">
+                <p>Faculdade</p>
+                <input type="checkbox" id="organizacao" name="universitario">
+                <p>Centro Universitário</p>
+                <input type="checkbox" id="organizacao" name="federais">
+                <p>Institutos Federais</p>
+                <input type="checkbox" id="organizacao" name="universidade">
+                <p>Universidade</p>
+                <input type="checkbox" id="organizacao" name="governo">
+                <p>Escola de Governo</p>
+            </h4>
+
+            <h4 class="inputs">
+                <label for="credenciamento">Tipo de Credenciamento:</label>
+                <input type="checkbox" id="credenciamento" name="presencial">
+                <p>Presencial</p>
+                <input type="checkbox" id="credenciamento" name="EAD">
+                <p>EAD</p>
+                <input type="checkbox" id="credenciamento" name="governo ead">
+                <p>Escola Governo - EAD</p>
+                <input type="checkbox" id="credenciamento" name="governo presencial">
+                <p>Escola Governo - Presencial</p>
+            </h4>
+
+            <h4 class="inputs">
+                <label for="indice">Índice:</label>
+                <select name="indice" id="indice">
+                    <option value="Selecione">Selecione</option>
+                    <option value="CI">CI</option>
+                    <option value="CI-EAD">CI-EAD</option>
+                    <option value="IGC">IGC</option>
+                </select>
+                <input type="checkbox" name="1" id="indice">
+                <p>1</p>
+                <input type="checkbox" name="2" id="indice">
+                <p>2</p>
+                <input type="checkbox" name="3" id="indice">
+                <p>3</p>
+                <input type="checkbox" name="4" id="indice">
+                <p>4</p>
+                <input type="checkbox" name="5" id="indice">
+                <p>5</p>
+                <input type="checkbox" name="SC" id="indice">
+                <p>SC</p>
+            </h4>
+
+
             <div>
                 <button type="submit">Pesquisar</button>
             </div>
@@ -149,7 +222,7 @@
 
     <footer class="footer">
         <p>2023 Ministério da Educação - Sistema e-MEC. Todos os direitos reservados</p>
-        <p>Feito com amor por anapaulaa-designer e pedronascimento-dev</p>
+        <p>Feito por anapaulaa-designer</p>
         <a href="#" class="logo-emec"></a>
     </footer>
 
