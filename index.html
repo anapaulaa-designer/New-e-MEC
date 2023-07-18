@@ -108,29 +108,32 @@
 
             <h4 class="inputs">
                 <label for="toogle">Buscar por</label>
-                <input type="checkbox" id="toogle" name="tipo de busca">
+                <input type="radio" id="toogle" name="tipo de busca">
                 <p>Instituição de Ensino Superior</p>
-                <input type="checkbox" id="toogle" name="tipo de busca">
+                <input type="radio" id="toogle" name="tipo de busca">
                 <p>Curso de Graduação</p>
-                <input type="checkbox" id="toogle" name="tipo de busca">
+                <input type="radio" id="toogle" name="tipo de busca">
                 <p>Curso de Especialização</p>
             </h4>
-
-
 
             <h4 class="inputs">
                 <label for="nome">Nome, Sigla ou Código da Instituição:</label>
                 <input type="text" id="nome" name="nome da instituição" placeholder="Insira o nome, sigla ou código da instituição aqui">
             </h4>
 
-
-
-
             <h4 class="inputs">
-                <label for=""></label>
+                <label for="UF">UF:</label>
+                <select name="UF" id="UF">
+                    <option value="Selecione">Selecione</option>
+                    <option value="Acre">Acre</option>
+                    <option value="Amazonas">Amazonas</option>
+                    <option value="Minas Gerais">Minas Gerais</option>
+                    <option value="São Paulo">São Paulo</option>
+                    <option value="Goiás">Goiás</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="Paraná">Paraná</option>
+                </select>
             </h4>
-
-
 
             <div>
                 <button type="submit">Pesquisar</button>
