@@ -104,25 +104,35 @@
         <!-- FILTROS -->
 
 
-        <form action="#" method="get" target="_blank" autocomplete="off" class="filtros">
+        <form action="#" method="get" target="_blank" autocomplete="off" class="grid filtros">
 
-            <h4 class="inputs">
                 <label for="radio" class="radio">Buscar por</label>
+                <label for="nome">Nome, Sigla ou Código da Instituição:</label>
+
+                <label for="UF">UF:</label>
+
+                <label for="municipio">Município:</label>
+
+                <label for="categoria">Categoria Administrativa:</label>
+
+                <label for="organizacao">Organização Acadêmica:</label>
+
+                <label for="credenciamento">Tipo de Credenciamento:</label>
+
+                <label for="indice">Índice:</label>
+
+
+
+
                 <input type="radio" id="radio" name="radio">
                 <p>Instituição de Ensino Superior</p>
                 <input type="radio" id="radio" name="radio">
                 <p>Curso de Graduação</p>
                 <input type="radio" id="radio" name="radio">
                 <p>Curso de Especialização</p>
-            </h4>
 
-            <h4 class="inputs">
-                <label for="nome">Nome, Sigla ou Código da Instituição:</label>
                 <input type="text" id="nome" name="nome da instituição" placeholder="Insira o nome, sigla ou código da instituição aqui">
-            </h4>
 
-            <h4 class="inputs">
-                <label for="UF">UF:</label>
                 <select name="estado" id="estado" >
                     <option value="AC">Acre</option>
                     <option value="AL">Alagoas</option>
@@ -153,10 +163,7 @@
                     <option value="TO">Tocantins</option>
                     <option value="EX">Estrangeiro</option>
                 </select>
-            </h4>
 
-            <h4 class="inputs">
-                <label for="municipio">Município:</label>
                 <select name="municipio" id="municipio">
                     <option value="Selecione">Selecione</option>
                     <option value="Cidade">Cidade</option>
@@ -167,10 +174,6 @@
                     <option value="Cidade">Cidade</option>
                 </select>
 
-            </h4>
-
-            <h4 class="inputs" id="tabela">
-                <label for="categoria">Categoria Administrativa:</label>
                 <input type="checkbox" id="categoria" name="municipal">
                 <p>Pública municipal</p>
                 <input type="checkbox" id="categoria" name="federal">
@@ -183,10 +186,7 @@
                 <p>Privada com fins lucrativos</p>
                 <input type="checkbox" id="categoria" name="especial">
                 <p>Especial</p>
-            </h4>
 
-            <h4 class="inputs">
-                <label for="organizacao">Organização Acadêmica:</label>
                 <input type="checkbox" id="organizacao" name="faculdade">
                 <p>Faculdade</p>
                 <input type="checkbox" id="organizacao" name="universitario">
@@ -197,10 +197,7 @@
                 <p>Universidade</p>
                 <input type="checkbox" id="organizacao" name="governo">
                 <p>Escola de Governo</p>
-            </h4>
 
-            <h4 class="inputs">
-                <label for="credenciamento">Tipo de Credenciamento:</label>
                 <input type="checkbox" id="credenciamento" name="presencial">
                 <p>Presencial</p>
                 <input type="checkbox" id="credenciamento" name="EAD">
@@ -209,10 +206,7 @@
                 <p>Escola Governo - EAD</p>
                 <input type="checkbox" id="credenciamento" name="governo presencial">
                 <p>Escola Governo - Presencial</p>
-            </h4>
 
-            <h4 class="inputs">
-                <label for="indice">Índice:</label>
                 <select name="indice" id="indice">
                     <option value="Selecione">Selecione</option>
                     <option value="CI">CI</option>
@@ -231,7 +225,6 @@
                 <p>5</p>
                 <input type="checkbox" name="SC" id="indice">
                 <p>SC</p>
-            </h4>
 
 
             <div>
