@@ -83,25 +83,30 @@
 
     /* FILTROS */
 
-    .filtros { background: rgb(230, 230, 230);
+    .grid { background: rgb(230, 230, 230);
     border-radius: 4px;
     padding: 10px; 
-    display: grid;
+    display: flex;
     margin: 10px 20px;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
+    flex-flow: row wrap;
+    flex-basis: 100vh;
+
     }
 
-        /* 
-            .filtros * { 
+        .filtros { 
             padding: 10px 0;
             margin: 10px;
+            justify-content: flex-start;
             align-items: center;
+            flex: 1 1 100vh;
+            flex-flow: row wrap;
             display: flex;
             border-bottom: 1.5px solid white;
-        } */
+        } 
 
-            label { padding: 10px 10px 10px 0; }
+            label { padding: 10px 10px 10px 0;
+            font-weight: bold;
+            margin-right: 20px;}
 
             p { padding: 10px; font: initial; font-family: montserrat; font-size: 14px;}
             
@@ -117,7 +122,7 @@
 
             input:hover { outline: 1px solid #0c85ef}
 
-            .inputs select { padding: 10px;
+            select { padding: 10px;
                 margin: 0 10px 0 0;
                 border-radius: 50px;
                 border: 0;
@@ -154,7 +159,32 @@
                 transform: scale(1);
             }
 
+            input[type="checkbox"] {
+                appearance: none;
+                margin: 0;
+                width: 30px;
+                height: 30px;
+                color: #0c85ef;
+                width: 1.15em;
+                height: 1.15em;
+                border-radius: 4px;     
+                display: grid;
+                place-content: center;  
+            }
 
+            input[type="checkbox"]::before {
+                content: "";
+                width: 10px;
+                height: 10px;
+                border-radius: 2px;
+                transform: scale(0);
+                transition: 120ms transform ease-in-out;
+                box-shadow: inset 1em 1em #0c85ef;
+                background-color: canvasText;
+            }
+            input[type="checkbox"]:checked::before {
+                transform: scale(1);
+            }
 
 
 
