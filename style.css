@@ -2,12 +2,16 @@
 
     * { margin: 0;
     padding: 0;
+    border: 0;
+    vertical-align: baseline;
     font-family: montserrat;
-    box-sizing: border-box;}
+    box-sizing: border-box;
+    list-style: none;}
     
     *:before, *:after { box-sizing: border-box }
     
-    a { text-decoration: none; }
+    a { text-decoration: none;
+    color: black;}
 
     h4 { font-size: 14px;}
 
@@ -16,11 +20,43 @@
 
 /* PRIMEIRA BARRA DE NAVEGAÇÃO GOV */
 
-    .topo-gov { }
+    .topo-gov { 
+        margin: 10px;
+        background: rgb(239, 239, 239);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
 
-            .bandeira-gov { }
+            .bandeira-gov { 
+                display: flex;
+                text-transform: uppercase;
+                font: small;
+                text-decoration: none;
+                align-items: center;            
+            }
 
-        .topo-gov ul {  }
+            .img-bandeira-gov { height: 40%; width: 10%;}
+
+        .topo-gov .participe-servicos {
+            display: flex;
+            align-items: center;
+            align-content: space-between;
+            border: 4px;
+            border-color: #0c85ef;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .topo-gov .acesso-a-informacao {
+            display: flex;
+            align-content: flex-start;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .topo-gov ul { font-size: small;}
 
         .topo-gov li {  }
 
@@ -87,8 +123,8 @@
     border-radius: 4px;
     padding: 10px; 
     display: flex;
-    margin: 10px 20px;
-    flex-flow: row wrap;
+    margin: 20px 40px;
+    flex-flow: row nowrap;
     flex-basis: 100vh;
 
     }
